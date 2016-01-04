@@ -16,3 +16,5 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
+#Screenshot
+![Tippr](https://raw.githubusercontent.com/kunalyadav93/Tippr/d6d07b5cb2253ccbea645cffd8a01dac2a7276bf/main/res/drawable/Image.jpg)
