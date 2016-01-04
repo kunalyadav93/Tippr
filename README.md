@@ -2,7 +2,7 @@
 A small app to calclulate tips. Automatically displays tips (15%, 20%, 25%, 30%).
 # License
 ```
-
+© 2016 Kunal Yadav
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
