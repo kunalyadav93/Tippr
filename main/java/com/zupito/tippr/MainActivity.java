@@ -30,15 +30,13 @@ public class MainActivity extends ActionBarActivity {
 
         EditText amountField = (EditText) findViewById(R.id.amount);
         String amountVal = amountField.getText().toString();
-        double mag =  Integer.parseInt(amountField.getText().toString());
+        double mag = Integer.parseInt(amountField.getText().toString());
 
-
-        String message1 = "₹" + mag*0.15;
-        String message2 = "₹" + mag*0.20;
-        String message3 = "₹" + mag*0.25;
-        String message4 = "₹" + mag*0.30;
-
-
+        /***** this will generate the tips */
+        String message1 = "₹" + mag * 0.15;
+        String message2 = "₹" + mag * 0.20;
+        String message3 = "₹" + mag * 0.25;
+        String message4 = "₹" + mag * 0.30;
 
 
         displayMessage(message1);
@@ -50,7 +48,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     /**
-     * This method displays the given quantity value on the screen.
+     * This method displays the calculated tips value on the screen.
      */
 
 
@@ -58,14 +56,17 @@ public class MainActivity extends ActionBarActivity {
         TextView priceTextView = (TextView) findViewById(R.id.price1);
         priceTextView.setText(message);
     }
+
     private void displayMessage2(String message) {
         TextView priceTextView = (TextView) findViewById(R.id.price2);
         priceTextView.setText(message);
     }
+
     private void displayMessage3(String message) {
         TextView priceTextView = (TextView) findViewById(R.id.price3);
         priceTextView.setText(message);
     }
+
     private void displayMessage4(String message) {
         TextView priceTextView = (TextView) findViewById(R.id.price4);
         priceTextView.setText(message);
